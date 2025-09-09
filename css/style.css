@@ -13,7 +13,7 @@
 
 body
 {
-    background: rgb(49, 49, 49);  
+    background: rgb(26, 26, 30);  
     color: #ffffff;  
 }
 
@@ -125,6 +125,18 @@ body
     transition: all 0.3s ease 0s;
 }
 
+.bton button:hover
+{
+    margin: 20%;
+    font-size: large;
+    color: black;
+    padding: 18px 45px;
+    background-color:#00000062;
+    border: none;
+    border-radius: 50px;
+    transform: scale(1.05);
+}
+
 .header .btn button:hover
 {
     background-color: #5295b4;
@@ -155,6 +167,24 @@ body
     box-shadow: 5px 5px 3px rgba(20, 20, 20, 0.6);
 }
 
+
+.vid
+{
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+    background-color: #0080bb;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 3px rgba(20, 20, 20, 0.6);
+}
+
+.vid iframe
+{
+  border-radius: 1rem;
+  width: 100%;
+  height: 720px;
+}
+
 .c_parrafo2
 {
     color: #e2e2e2;
@@ -167,23 +197,6 @@ body
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 5px 5px 3px rgba(20, 20, 20, 0.6);
     transition: all 0.2s ease 0s;
-}
-
-.c_parrafo2:hover
-{
-    color: #e2e2e2;
-    display: flex;
-    width: 100%;
-    margin-top: 5%;
-    height: 100%;
-    background-color: #0080bb;
-    border-radius: 15px;
-    border-radius: 1rem 1rem 1rem 1rem;
-    box-shadow: 5px 5px 3px rgba(20, 20, 20, 0.6);
-    background-color: #004f74b4;
-    border-radius: 2rem;
-    box-shadow: 5px 5px 5px 5px rgba(0, 200, 255, 0.2);
-    transform: scale(1.01);
 }
 
 .c_parrafo2 .p1
@@ -216,19 +229,6 @@ body
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 5px 5px 3px rgba(20, 20, 20, 0.6);
     transition: all 0.2s ease 0s;
-}
-
-.c_parrafo:hover
-{
-    color: #e2e2e2;
-    width: 100%;
-    margin-top: 5%;
-    height: 100%;
-    padding: 10% 10%;
-    background-color: #004f74b4;
-  border-radius: 2rem;
-  box-shadow: 5px 5px 5px 5px rgba(0, 200, 255, 0.2);
-  transform: scale(1.01);
 }
 
 .cuerpo
@@ -288,6 +288,8 @@ border-radius: 15px;
     display: flex;
     gap: 5vh;
     cursor: default;
+    width: 100%;
+    height: auto;
 }
 
 .may .fun
