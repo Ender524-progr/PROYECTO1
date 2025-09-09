@@ -8,6 +8,7 @@
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;    
     scroll-behavior: smooth;
+    cursor: default;
 }
 
 body
@@ -112,6 +113,18 @@ body
     transition: all 0.3s ease 0s;
 }
 
+.bton button
+{
+  margin: 20%;
+    font-size: large;
+    color: #03afff;
+    padding: 18px 45px;
+    background-color:black;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
 .header .btn button:hover
 {
     background-color: #5295b4;
@@ -124,22 +137,98 @@ body
   
     width: 100%;
     height: auto;
-    padding: 5% 5%;
     display: flex;
     flex-direction: column;
     gap: 5vh;
 }
 
-.c_parrafo
+.c_parrafo1
 {
     color: #e2e2e2;
     width: 100%;
+    margin-top: 5%;
     height: 100%;
     padding: 10% 10%;
     background-color: #0080bb;
     border-radius: 15px;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 5px 5px 3px rgba(20, 20, 20, 0.6);
+}
+
+.c_parrafo2
+{
+    color: #e2e2e2;
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    height: 100%;
+    background-color: #0080bb;
+    border-radius: 15px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    box-shadow: 5px 5px 3px rgba(20, 20, 20, 0.6);
+    transition: all 0.2s ease 0s;
+}
+
+.c_parrafo2:hover
+{
+    color: #e2e2e2;
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    height: 100%;
+    background-color: #0080bb;
+    border-radius: 15px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    box-shadow: 5px 5px 3px rgba(20, 20, 20, 0.6);
+    background-color: #004f74b4;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 200, 255, 0.2);
+    transform: scale(1.01);
+}
+
+.c_parrafo2 .p1
+{
+  width: 50%;
+  height: 100%;
+  padding: 5%;
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.c_parrafo2 .p2
+{
+    background-color: #156286;
+  width: 50%;
+  border-radius: 0rem 1rem 1rem 0rem;
+  height: auto;
+  display:flex;
+  justify-content: center;
+}
+
+.c_parrafo
+{
+    color: #e2e2e2;
+    width: 100%;
+    margin-top: 5%;
+    height: 100%;
+    padding: 10% 10%;
+    background-color: #0080bb;
+    border-radius: 15px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    box-shadow: 5px 5px 3px rgba(20, 20, 20, 0.6);
+    transition: all 0.2s ease 0s;
+}
+
+.c_parrafo:hover
+{
+    color: #e2e2e2;
+    width: 100%;
+    margin-top: 5%;
+    height: 100%;
+    padding: 10% 10%;
+    background-color: #004f74b4;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 5px 5px rgba(0, 200, 255, 0.2);
+  transform: scale(1.01);
 }
 
 .cuerpo
@@ -149,6 +238,7 @@ body
     align-items: center;
     padding:5% 10%;
     padding-top: 120px;
+    justify-content: center;
 }
 
 .cuerpo h4
@@ -197,6 +287,7 @@ border-radius: 15px;
 {
     display: flex;
     gap: 5vh;
+    cursor: default;
 }
 
 .may .fun
@@ -216,29 +307,33 @@ border-radius: 15px;
   background-color: #0080bb;
   border-radius: 1rem;
   box-shadow: 5px 5px 3px rgba(200, 200, 200, 0.2);
+  transition: all 0.3s;
 }
 
 .may .fun2 .f2
 {
   background-color: #156286;
   width: 150px;
-  height: 100%;
   border-radius: 0rem 1rem 1rem 0rem;
+  height: auto;
+  display:flex;
+  justify-content: center;
 }
 
 .may .fun2 .f1
 {
-  background-color: #0080bb;
   width: 350px;
   height: 100%;
+  padding: 5%;
   border-radius: 1rem 0rem 0rem 1rem;
 }
 
-
-.may .fun2 .f2 img
+.may .fun2:hover
 {
-  width: 100%;
-  height: auto;
+  background-color: #004f74b4;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 5px 5px rgba(0, 200, 255, 0.2);
+  transform: scale(1.01);
 }
 
 /* From Uiverse.io by firemonste_8052 */ 
